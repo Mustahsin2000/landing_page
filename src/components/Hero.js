@@ -14,7 +14,11 @@ const Hero = () => (
       <span className='text-[#12BADF]'>WEBSITE</span> <span className='text-gradient4'>STAND</span> <span className='text-gradient1'>OUT</span> <br />
       <span className='text-[#12BADF]'>IN</span> <span className='text-[#17C7C0]'>A</span> <span className='text-gradient2'>CROWD</span>
       </h1>
+
       
+      <div>
+      <div className='absolute z-[0] w-[345px] h-[514px] top-0 right-0 pink__gradient'/>
+      </div>
   </section>
   
 )

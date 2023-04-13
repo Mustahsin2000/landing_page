@@ -304,7 +304,8 @@ code {
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  background: linear-gradient(90deg, #f58607
+  10%, #E88007 100%);
   filter: blur(900px);
 }
 
