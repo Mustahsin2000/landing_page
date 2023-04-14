@@ -18,7 +18,7 @@ const Navbar = () => {
             <li key={nav.id} className={`font-poppins font-normal cursor-pointer
           text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-[56px]'} text-dimWhite 
           `}>
-              <a  className='w-[48px] h-[21px]' href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))
         }

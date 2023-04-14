@@ -23,11 +23,11 @@ const FeatureCard = ({icon,title,content,index})=>(
 
 const Business = () => {
   return (
-    <section id='features' className={layout.section}> 
-<div className={layout.sectionInfo}>
-  <h2 className={`${styles.heading2} w-[622px] h-[154px]`}>You do the business, <br className="sm:block hidden" /> we’ll handle
+    <section id='Features' className={layout.section}> 
+<div className={`${layout.sectionInfo} my-[-5px] `}>
+  <h2 className={`${styles.heading2}  w-[622px] h-[250px]`}>You do the business, <br className="sm:block hidden" /> we’ll handle
         the money.</h2>
-        <p className={`${styles.paragraph} max-w-[570px] h-[93px] mt-5 text-white`}>
+        <p className={`${styles.paragraph} max-w-[570px] h-[93px] text-white`}>
         With the right credit card, you can improve your financial life by
         building credit, earning rewards and saving money. But with hundreds
         of credit cards on the market.
