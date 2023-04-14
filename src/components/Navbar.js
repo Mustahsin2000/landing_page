@@ -5,7 +5,7 @@ import { navLinks } from '../constants'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className=' flex py-6 justify-between items-center navbar  '>
+    <nav className=' flex py-6 justify-between items-center navbar w-[1135px] mx-auto '>
       <div className='flex items-center'>
         <img src={logo} alt="orbido"
           className='w-[55px] h-[41px] top-[-111px] left-[4787px]'

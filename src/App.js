@@ -1,16 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-    
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from 'react'
 import styles from './style'
 import { Navbar,Hero,Business,Billing,
@@ -31,7 +18,7 @@ const App = () => (
 </div>
 </div>
 
-<div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}> 
+<div className={`bg-primary ${styles.paddingX} ${styles.flexStart} w-[1170px] mx-auto`}> 
 <div className={`${styles.boxWidth}`}>
   <Business ></Business>
   <Billing ></Billing>
