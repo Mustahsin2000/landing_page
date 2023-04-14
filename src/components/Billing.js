@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="Solution" className={`${layout.sectionReverse} `}>
-    <div className={`${layout.sectionImgReverse} w-[622px]`}>
+    <div className={`${layout.sectionImgReverse} `}>
       <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
@@ -13,7 +13,7 @@ const Billing = () => (
     </div>
 
     <div className={`${layout.sectionInfo} `}>
-      <h2 className={`${styles.heading2} w-[470px] h-[154px]`}>
+      <h2 className={`${styles.heading2} `}>
         Easily control your <br className="sm:block hidden" /> billing &
         invoicing
       </h2>
