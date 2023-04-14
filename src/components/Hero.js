@@ -3,10 +3,11 @@ import styles from '../style'
 
 const Hero = () => (
   
-  <section id='home' className={`  ${styles.paddingY} `}>
+  <section id='home' className={`${styles.paddingY} `}>
      
       <h1 className=' font-poppins font-semibold  text-[70px]
-      text-white text-center line-height-[82px]
+      text-white text-center line-height-[82px] top-[229px] w-[897px] h-[306px]
+      left-[271px] right-[272px] lg:mx-[220px]
       '>
       <span className='text-[#12BADF]'>MAKE</span> <span className='text-gradient3'>YOUR</span> <span className='text-gradient'>DREAM</span> <br />
       <span className='text-[#12BADF]'>WEBSITE</span> <span className='text-gradient4'>STAND</span> <span className='text-gradient1'>OUT</span> <br />
